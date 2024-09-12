@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<div class="p-3">
+  <div class="container">
+    <div class="row mt-3">
+      <div class="col-md-6 mx-auto mb-3">
+        <h2>Acerca de nosotros</h2>
+        <hr />
+        <p>En Analizador de Convocatorias, ofrecemos una herramienta de inteligencia artificial avanzada diseñada 
+          específicamente para analizar documentos de convocatorias. Nuestra plataforma utiliza tecnología de procesamiento de 
+          lenguaje natural para extraer información clave de manera eficiente y precisa. Con solo cargar el documento, nuestro
+           sistema puede identificar automáticamente fechas importantes, requisitos, criterios de evaluación y otros detalles cruciales, 
+           ahorrando tiempo valioso a los usuarios y reduciendo el riesgo de pasar por alto información crítica.</p>
+        <p>Descubra la potencia de nuestro analizador inteligente, que no solo extrae datos, sino que también proporciona insights valiosos.
+           Nuestra herramienta puede comparar múltiples convocatorias, destacar similitudes y diferencias, y incluso sugerir 
+           oportunidades que se ajusten mejor al perfil del usuario. Con una interfaz intuitiva y resultados presentados de manera 
+           clara y concisa, Analizador de Convocatorias se convierte en un aliado indispensable para investigadores, instituciones 
+           académicas y organizaciones que buscan optimizar su proceso de aplicación a convocatorias y maximizar sus oportunidades
+           de éxito.</p>
+      </div>
+      <div class="col-md-6 mx-auto mb-3 text-center">
+        <img src="{% static 'img/logo.jpg' %}" class="max-w-400" alt="about" />
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}
